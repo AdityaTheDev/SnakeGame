@@ -12,7 +12,7 @@ function main(currentTime){
             window.location.assign("https://adityathedev.github.io/SnakeGame/")
         }
         else{
-            window.close()
+            window.top.close()
         }
     }
     window.requestAnimationFrame(main)
