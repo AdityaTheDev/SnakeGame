@@ -10,10 +10,11 @@ function main(currentTime){
     if(gameOver){
         if(confirm('You Lost The Game. Press OK to Restart' )){
             window.location.assign("https://adityathedev.github.io/SnakeGame/")
-            break
         }
+        else{
             window.close()
-    }
+        }    
+        }
     window.requestAnimationFrame(main)
     const secondsSinceLastRender=(currentTime - lastRenderTime)/1000
     if(secondsSinceLastRender<1/SPEED) return
