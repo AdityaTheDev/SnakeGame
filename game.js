@@ -11,7 +11,6 @@ function main(currentTime){
         if(confirm('You Lost The Game. Press OK to Restart' )){
             window.location="/"
         }
-            window.close()
         
         }
     window.requestAnimationFrame(main)
