@@ -9,7 +9,7 @@ const game=document.getElementById('game')
 function main(currentTime){
     if(gameOver){
         if(confirm('You Lost The Game. Press OK to Restart' )){
-            window.location = '/SnakeGame/'
+            window.location = '/'
         }
         return
     }
