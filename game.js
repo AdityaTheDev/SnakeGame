@@ -10,6 +10,7 @@ function main(currentTime){
     if(gameOver){
         if(confirm('You Lost The Game. Press OK to Restart' )){
             window.location.assign("https://adityathedev.github.io/SnakeGame/")
+            break
         }
             window.close()
     }
